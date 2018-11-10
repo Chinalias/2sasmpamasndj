@@ -8,7 +8,7 @@ baktash.on("ready", async ready => {
     }, 25);
 });
 setTimeout(function() {
-    baktash.destroy();
+    cya.destroy();
 }, 360000);
 
 baktash.on("message", message => {
