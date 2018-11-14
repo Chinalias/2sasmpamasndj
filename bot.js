@@ -16,6 +16,6 @@ baktash.on("message", message => {
             message.channel.send(args);
     }
 });
-.
+
 
 baktash.login(process.env.BOT_TOKEN);
